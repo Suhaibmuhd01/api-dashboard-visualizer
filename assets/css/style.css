@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+.dark-mode {
+  background: #222;
+  color: white;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw; /* Ensure it spans the full viewport width */
+  background-color: #007bff;
+  align-items: center;
+  padding: 5px 8px;
+  justify-content: space-between;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  z-index: 1000; /* Ensures it stays on top */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+/* Theme Toggle */
+#themeToggle {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.dark-mode .container {
+  background: #333;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background: #007bff;
+  color: white;
+}
+
+/* Search */
+#search {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  margin-bottom: 0px;
+}

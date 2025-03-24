@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Dashboard</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="./assets/logo/logo.png" alt="Logo">
+            <h1>API Dashboard</h1>
+        </div>
+        <button id="themeToggle">🌙</button>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h2>Real-Time Data</h2>
+
+        <!-- Search & Filter -->
+        <input type="text" id="search" placeholder="Search API Data..." />
+
+        <!-- Table -->
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price (USD)</th>
+                    <th>Change (%)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <!-- Chart -->
+        <canvas id="priceChart"></canvas>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 API Dashboard. All rights reserved.</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
