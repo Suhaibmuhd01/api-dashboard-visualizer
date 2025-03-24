@@ -40,6 +40,10 @@ The real-time cryptocurrency data is fetched from:
 ## Screenshots
 ![API Dashboard Screenshot](screenshot.png)
 
+## Author
+Suhaib Muhammad Babangida
+## Live preview 
+[Live Demo](https://api-dashboard-visualizer.vercel.app/)
 ## Contributing
 Feel free to fork the repository and submit pull requests to enhance the project!
 
